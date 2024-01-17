@@ -1,4 +1,10 @@
 ## Portable Raspberry Pi Zero Device (PRPZD)
+# Equipment
+[Waveshare 1.44inch LCD HAT SPI](https://amzn.eu/d/cSOeuAg)<br />
+[Raspberry Pi Zero 2w](https://amzn.eu/d/5fjt3Nu) <br />
+[Raspberry Pi Zero Pin Headers (20 pins)](https://amzn.eu/d/ev8hWmw)  <br />
+# WARNING!!
+**This will only work on Kali Linux for Raspberry Pi Zero 2W 32 bits**, other systems might not work.
 # Tools
 In the tools folder, there is a folder named stats, inside of it there is a file named **stat.py**. This file will run a status report webpage that can be accessed on port 5000 on your raspberry pi zero IP with the user **admin** and password **admin**. YOu can see the RAM and CPU usage as well as be able to reboot the raspberry pi zero 2W.
 # Installation.
