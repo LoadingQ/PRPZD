@@ -57,6 +57,10 @@ ExecStart=/usr/local/bin/fbcp
 [Install]
 WantedBy=default.target
 ```
+Then do:
+```bash
+sudo systemctl enable fbcp
+```
 ```bash
 sudo nano /boot/config.txt
 ```
