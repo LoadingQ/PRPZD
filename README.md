@@ -44,6 +44,7 @@ mkdir build
 cd build
 cmake -DWAVESHARE_ST7735S_HAT=ON -DST7735S=ON -DSPI_BUS_CLOCK_DIVISOR=6 ..
 make -j
+sudo cp ./fbcp-ili9341 /usr/local/bin/fbcp
 sudo nano /etc/systemd/system/fbcp.service
 ```
 **Then add:**
