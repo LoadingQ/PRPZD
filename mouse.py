@@ -1,3 +1,4 @@
+import json
 from pymouse import PyMouse
 import time
 import RPi.GPIO as GPIO
@@ -7,10 +8,12 @@ GPIO.setmode(GPIO.BCM)
 
 last_key3_press = 0
 current_letter_index = 0
-letters = """abcdefghijklmnopqrstuvwxyz0123456789"""
-low = """abcdefghijklmnopqrstuvwxyz0123456789"""
-symbols = """!'"$&/()[]!=+,.-"""
-capital = """ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"""
+with open('/PRPZD/configs/keys.json') as f:
+    w = json.load(f)
+letters = w["low"]
+low = w["low"]
+symbols = w["symbols"]
+capital = w["capitals"]
 
 btn_up = 5
 btn_down = 26
@@ -198,3 +201,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
