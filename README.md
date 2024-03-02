@@ -38,6 +38,9 @@ sudo apt-get update -y
 sudo apt-get install python3-pip python3-pil python3-numpy cmake p7zip-full -y
 sudo pip3 install spidev
 git clone https://github.com/LoadingQ/PRPZD.git
+cd /home/kali/PRPZD
+sudo bash setup.sh
+cd /home/kali
 git clone https://github.com/juj/fbcp-ili9341.git
 cd fbcp-ili9341
 mkdir build
@@ -88,7 +91,7 @@ sudo nano local.desktop
 ```
 [Desktop Entry]
 Type=Application
-Exec=sudo python3 /home/kali/PRPZD/mouse.py
+Exec=sudo python3 /PRPZD/mouse.py
 ```
 **Last requriments and reboot**
 ```bash
