@@ -6,7 +6,10 @@
 # WARNING!!
 **This was only only tested on Kali Linux for Raspberry Pi Zero 2W. But system can only be 32 bits for the fbcp driver to work**, other systems might not work.
 # Tools
-In the tools folder, there is a folder named stats, inside of it there is a file named **stat.py**. This file will run a status report webpage that can be accessed on port 5000 on your raspberry pi zero IP with the user **admin** and password **admin**. YOu can see the RAM and CPU usage as well as be able to reboot the raspberry pi zero 2W.
+In the tools folder, there is a folder named stats, inside of it there is a file named **stat.py**. This file will run a status report webpage that can be accessed on port 5000 on your raspberry pi zero IP with the user **admin** and password **admin**. You can see the RAM and CPU usage as well as be able to reboot the raspberry pi zero 2W.
+
+#Screenshots:
+![image search api](https://i.gyazo.com/acc3628850abf7d8eadbaf9370efdfab.png)[(Gyazo)](https://gyazo.com/acc3628850abf7d8eadbaf9370efdfab)
 # Installation.
 ```bash
 sudo raspi-config
