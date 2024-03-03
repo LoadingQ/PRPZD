@@ -101,3 +101,26 @@ exit
 sudo reboot
 ```
 For customization just use google for the love of god
+
+# Keys guide.
+```
+Up joystick (No mode) - Mouse Up.
+Down Joystick (No mode) - Mouse Down.
+Right Joystick (No mode) - Mouse Right.
+Left Joystick (No mode) - Mouse Left.
+Joystick Press (No mode) - Switch joysticks from mouse to arrow keys and reverse too.
+KEY1 (No mode) - Left click.
+KEY2 (No mode) - Right click.
+```
+# Keyboard Mode
+The keyboard mode is ordered by alfabetical order with the numbers added after z. Example: **a, b, c, d, e... x, y, z, 0, 1, 2, 3...**
+```
+KEY3 - Enable/Disable keyboard mode.
+Joystick Up (Keyboard Mode) - Next letter. Example: a -> b -> c -> d...
+Joystick Down (Keyboard Mode) - Previouse letter. Example: z -> y -> x -> w...
+Joystick Right (Keyboard Mode) - Write a space.
+Joystick Left (Keyboard Mode) - Delete previous character.
+Joystick Press (Keyboard Mode) - Enter.
+KEY1 (Keyboard Mode) - Switch to uppercase.
+KEY2 (Keyboard Mode) - Switch to symbols.
+```
